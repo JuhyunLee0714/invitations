@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Invitation to Our Home!</title>
+  <style>
+    body {
+      font-family: 'Noto Sans KR', sans-serif;
+      background-image: url('https://cdn.onlinefabricstore.com/products/PCHEC928_1.jpg?quality=100');
+      background-repeat: repeat;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+    .card {
+      background-color: #fff;
+      border-radius: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 40px;
+      text-align: center;
+      width: 90%;
+      max-width: 500px;
+    }
+    h1 {
+      color: #333;
+      margin-bottom: 20px;
+    }
+    p {
+      color: #555;
+      font-size: 16px;
+      line-height: 1.5;
+      margin: 15px 0;
+    }
+    .icon-btn {
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+      margin-right: 10px;
+      text-decoration: none;
+    }
+    /* 기본 아이콘 크기: Google Map 아이콘 */
+    .map-icon {
+      width: 40px;
+      height: 35px;
+    }
+    /* 네이버 아이콘 약간 축소 */
+    .naver-icon {
+      width: 30px;
+      height: 40px;
+    }
+    .map-text {
+      margin-top: 5px;
+      font-size: 14px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>💌<br>U bent uitgenodigd!</h1>
+    <p>
+      Wij zijn erg blij dat u helemaal uit Nederland bent gekomen om ons te trakteren op een maaltijd bij ons thuis.
+    </p>
+    <p>
+      Wij nodigen u uit voor een warme bijeenkomst vol liefde, gezelligheid en heerlijk eten. Geniet van deze speciale dag vol met het samen maken van mooie herinneringen, lachen, proosten en plezier maken.
+    </p>
+    <p>
+      Wij hopen dat u bij ons thuis komt wonen en dat u onvergetelijke momenten met ons beleeft.
+    </p>
+    <p>
+      Tot snel!
+    </p>
+    <p style="text-align: left;">
+        <span class="info">Datum🕛:</span> 5 april 2025, 12:00 uur<br>
+        <span class="info">Locatie📍:</span> Appartement 801, Gebouw 101, 2 Yeonwon-ro 42beon-gil,<br>
+        Giheung-gu, Yongin-si, Gyeonggi-do, Zuid-Korea
+      </p>
+    <p style="text-align: left;">
+        Opmerking: Als u allergieën heeft of bepaalde voedingsmiddelen niet kunt eten, laat het ons dan van tevoren weten!
+    </P>
+      
+    <!-- 네이버 지도 아이콘 (SVG로 구성, 약간 축소 적용) -->
+    <a href="https://map.naver.com/v5/search/%EB%B8%94%EB%A3%A8%EB%B0%8D%EA%B5%AC%EC%84%B1%EB%8D%94%EC%84%BC%ED%8A%B8%EB%9F%B4%EC%95%84%ED%8C%8C%ED%8A%B8101%EB%8F%99" 
+       target="_blank" class="icon-btn">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" class="map-icon naver-icon">
+        <g transform="translate(-27.5, -1) scale(1.2)">
+          <path d="M31 1c-4.418 0-8 3.416-8 7.63 0 1.455.41 2.81 1.152 3.967l6.662 9.31c.09.124.283.124.372 0l6.662-9.31A7.303 7.303 0 0 0 39 8.63C39 4.416 35.418 1 31 1"></path>
+          <path fill="#FFF" d="M32.146 6v3.105L29.888 6H27.5v6h2.355V8.894L32.114 12H34.5V6z"></path>
+        </g>
+      </svg>
+      <span class="map-text">NAVER Map</span>
+    </a>
+    <!-- Google 지도 아이콘 (SVG 그대로) -->
+    <a href="https://www.google.com/maps/search/?api=1&query=%EB%B8%94%EB%A3%A8%EB%B0%8D%EA%B5%AC%EC%84%B1%EB%8D%94%EC%84%BC%ED%8A%B8%EB%9F%B4%EC%95%84%ED%8C%8C%ED%8A%B8101%EB%8F%99" 
+       target="_blank" class="icon-btn">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 550" class="map-icon">
+        <path fill="#4285F4" d="M256 0C153.755 0 70.759 82.996 70.759 185.241c0 141.75 172.596 310.362 179.95 317.537a8.516 8.516 0 0011.583 0c7.354-7.174 179.95-175.787 179.95-317.537C441.241 82.996 358.245 0 256 0zm0 252.414c-37.155 0-67.173-30.018-67.173-67.173s30.018-67.173 67.173-67.173 67.173 30.018 67.173 67.173-30.018 67.173-67.173 67.173z"/>
+      </svg>
+      <span class="map-text">Google Map</span>
+    </a>
+  </div>
+</body>
+</html>
