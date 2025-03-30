@@ -10,6 +10,7 @@
   <meta property="og:image" content="https://png.pngtree.com/png-clipart/20190516/original/pngtree-golden-invitation-png-image_3760646.jpg" />
   <meta property="og:url" content="https://juhyunlee0714.github.io/invitations/invitations.html" />
   <meta property="og:type" content="website" />
+  
   <style>
     body {
       font-family: 'Noto Sans KR', sans-serif;
@@ -22,13 +23,6 @@
       align-items: center;
       min-height: 100vh;
       margin: 0;
-    }
-    /* 모바일 환경에서 배경 관련 추가 조정 */
-    @media (max-width: 700px) {
-      body {
-        background-size: cover;
-        background-position: center;
-      }
     }
     .card {
       background-color: #fff;
@@ -72,6 +66,16 @@
       font-size: 14px;
       color: #333;
     }
+    /* 모바일 환경에서는 카드의 폭과 패딩을 줄임 */
+    @media (max-width: 600px) {
+      .card {
+        max-width: 350px;
+        padding: 20px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
   </style>
 </head>
 <body>
@@ -94,7 +98,6 @@
     <p style="text-align: left;">
       Opmerking: Als u allergieën heeft of bepaalde voedingsmiddelen niet kunt eten, laat het ons dan van tevoren weten!
     </p>
-      
     <!-- 네이버 지도 아이콘 (SVG로 구성, 약간 축소 적용) -->
     <a href="https://map.naver.com/v5/search/%EB%B8%94%EB%A3%A8%EB%B0%8D%EA%B5%AC%EC%84%B1%EB%8D%94%EC%84%BC%ED%8A%B8%EB%9F%B4%EC%95%84%ED%8C%8C%ED%8A%B8101%EB%8F%99" 
        target="_blank" class="icon-btn">
